@@ -104,7 +104,7 @@ local function sort_rule_sname()
 			m.uci:set(qos_config, check_sname, "download_rule")
 			for key, value in pairs(section) do
 				if key == "test_order" then
-					m.uci:set(qos_config, check_sname, "test_order", section_order[idx])
+					m.uci:set(qos_config, check_sname, "test_order", section_order[idx] * 100)
 				else
 					m.uci:set(qos_config, check_sname, key, value)
 				end
