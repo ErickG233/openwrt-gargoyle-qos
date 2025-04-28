@@ -6,6 +6,6 @@
 - 5、只把qos功能移植过来，别的就不需要了
 
 ### 安装：
-- 方法1、git clone -b master  https://github.com/ilxp/gargoyle-qos-openwrt.git  package/gargoyle-qos-openwrt
-- 方法2、sed -i '$a src-git gargoyle https://github.com/ilxp/gargoyle-qos-openwrt.git;master' feeds.conf.default
+- 方法1、git clone -b iptables  https://github.com/ErickG233/openwrt-gargoyle-qos.git  package/gargoyle-qos-openwrt
+- 方法2、sed -i '$a src-git gargoyle https://github.com/ErickG233/openwrt-gargoyle-qos.git;iptables' feeds.conf.default
 - 建议用第一种,或者直接下载,第二种把握不住,修改的时候会很麻烦
